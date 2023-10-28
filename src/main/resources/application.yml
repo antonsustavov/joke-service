@@ -1,0 +1,9 @@
+server:
+  port: 8687
+
+joke:
+  property:
+    maxCountPerRequest: 100
+    batch: 10
+    url: "https://official-joke-api.appspot.com"
+    randomJokeUri: "/random_joke"
